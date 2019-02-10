@@ -27,3 +27,16 @@ h2 {
 	font-weight: bold; 
 
 }
+
+p{
+	border: 10px :#ff69B4;
+	background-color: #ffffff;
+	width: 90%;
+	height: 150%;
+	margin-right: auto;
+	margin-left: auto; 
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #C71585;
+	text-align: left;
+	font-weight: bold
+}
