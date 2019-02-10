@@ -1,89 +1,236 @@
 <!DOCTYPE html>
+
 <html>
+
 <head>
-<meta charset="utf-8">	
-	<link rel="stylesheet" type="text/css" href="assignment2.css">
-	<title>Assignment 2</title>
+
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width", initial-scale="1">
+<link rel="stylesheet" type="text/css" href="assignment2.css">
+<title>Assignment 2</title>
+
 <style>
 
-/***** Base Styles ****/
+/*********Base Styles***********/
 
-* {
-	box-sizing: border-box;
+*{
+
+box-sizing: border-box;
+
 }
+
+}
+
 h1 {
-	margin-bottom: 15px;
-}	
+	margin-bottom: 15px
+
+	color: #676767; 
+
+	text-align: center;
+
+	font-family: Tahoma, Geneva, sans-serif;
+	
+}
 
 
-.row{
-	width: 100%;
+section{
+
+background-color: #676767;
+
+text-align: center;
+
+column-span: auto;
+
+font-family: Tahoma, Geneva, sans-serif;
+
 }
-/*********Desktop only********/
-@media(min-width: 992px) and (max-width: 1199px) {
-	.col-lg-1, .col-lg-2, .col-lg-3 {
-		float: left;
-		border: 5px #2F4F4F;
-	}
-	.col-lg-1 {
-		width: 33.33%;
-	}
-	.col-lg-2 {
-		width: 33.33%;
-	}
-	.col-lg-3 {
-		width: 33.33%;
-	}
+
+div{
+
+box-sizing: border-box;
+
+width: 100%;
+
+display: inline-block;
+
+height: 100px;
+
+text-align: center;
+
+text-overflow: none;
+
 }
-/**** Tablet only ***/
+
+p {
+
+background-color: #ffffff;
+
+width:100%;
+
+height: 300px;
+
+margin-right: auto;
+
+margin-left: auto;
+
+font-family: Tahoma, Geneva, sans-serif;
+color: #C71585;
+
+padding: 1px;
+
+margin: 1px;
+
+font-size: 20px;
+
+}
+
+/*Simple Responsive Framework. */
+
+.row {
+
+width: 100%;
+
+}
+
+/*********Large devices only*************/
+
+@media (min-width: 992px) {
+
+.col-lg-1, .col-lg-2, .col-lg-3,
+
+{
+
+float: center;
+
+border: 1px solid black;
+
+}
+
+.col-lg-1{
+
+width: 8.33%
+
+}
+
+.col-lg-2{
+
+width: 16.66%
+
+}
+
+.col-lg-3{
+
+width: 25%;
+
+}
+
+}
+
+/*************Medium devices only*****************/
+
 @media (min-width: 768px) and (max-width: 991px) {
-	.col-md-1, .col-md-2, .col-md-3 {
-		float: left;
-		border: 5px #2F4F4F;
-	}
-	.col-md-1 {
-		width: 50%;
-	}
-	.col-md-2 {
-		width: 50%
-	}
-	.col-md-3 {
-		width: 100%
-	}
-}
 
-/***** Mobiles Only **/
-@media (max-width: 767px) {
-	.col-sm-1, .col-sm-2, .col-sm-3 {
-		float: left;
-		border: 5px #2F4F4F;
-	}
-	.col-sm-1 {
-		width: 100%;
-	}
-	.col-sm-2 {
-		width: 100%
-	}
-	.col-sm-3 {
-		width: 100%
-	}
-}
+.col-md-1, .col-md-2, .col-md-3,
 
+{ float: center;
+
+border: 1px solid black;
 
 }
+
+.col-md-1{
+
+width: 8.33%
+
+}
+
+.col-md-2{
+
+width: 16.66%
+
+}
+
+.col-md-3{
+
+width: 25%;
+
+}
+
+}
+
+/****************Small devices only******************/
+
+@media (min-width: 767px) {
+
+.col-sd-1, .col-sd-2, .col-sd-3,
+
+{ float: center;
+
+border: 1px solid black;
+
+}
+
+.col-sd-1{
+
+width: 8.33%
+
+}
+
+.col-sd-2{
+
+width: 16.66%
+
+}
+
+.col-sd-3{
+
+width: 25%;
+
+}
+
+}
+
 </style>
+
 </head>
+
 <body>
-	<h1> Menu </h1>
+
+<h1>Menu</h1>
+
 <div class="row">
-	<div class="col-lg-4" col-md-6 col-sm-12><h2>Chicken</h2><p>Broccoli quinoa risotto with seared chicken
-	Butter chicken
-	Char-grilled Satay chicken wings
-</p></div>
-	<div class="col-lg-4" col-md-6 col-sm-12><h2>Beef</h2></div>
-	<div class="col-lg-4" col-md-6 col-sm-12><h2>Sushi</h2></div>
+
+<div class="col-lg-3 col-md-3"><section>CHICKEN</section>
+
+<p> *BUTTERMILK FRIED CHICKEN R60 
+*CHAR-GRILLED CHICKEN WITH GREEN CHILLI AND CORN SALSA R75
 
 
+
+</p>
+
+</div>
+
+<div class="col-lg-3 col-md-3"><section>BEEF</section>
+
+<p>*ASIAN BEEF AND GREEN TEA NOODLE SALAD WITH CHARRED EGGPLANT R125
+* BEEF AND BEETROOT CURRY R105</p>
+
+</div>
+
+<div class="col-lg-3 col-md-3"><section>SUSHI</section>
+
+<p>* QUINOA SUSHI WITH CHILLI TOFU AND AVOCADO R85
+*SUSHI CONES WITH CUCUMBER AND MARINATED SALMON R90
+
+
+
+
+</p>
+
+</div>
 
 </body>
+
 </html>
