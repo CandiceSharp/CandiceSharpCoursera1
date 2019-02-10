@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width", initial-scale="1">
+<link rel="stylesheet" type="text/css" href="assignment2.css">
+<title>Assignment 2</title>
+
+<style>
+
+/*********Base Styles***********/
+
+*{
+
+box-sizing: border-box;
+
+}
+
+}
+
+h1 {
+	margin-bottom: 15px
+
+	color: #676767; 
+
+	text-align: center;
+
+	font-family: Tahoma, Geneva, sans-serif;
+	
+}
+
+
+section{
+
+background-color: #676767;
+
+text-align: center;
+
+column-span: auto;
+
+font-family: Tahoma, Geneva, sans-serif;
+
+}
+
+div{
+
+box-sizing: border-box;
+
+width: 100%;
+
+display: inline-block;
+
+height: 100px;
+
+text-align: center;
+
+text-overflow: none;
+
+}
+
+p {
+
+background-color: #ffffff;
+
+width:100%;
+
+height: 300px;
+
+margin-right: auto;
+
+margin-left: auto;
+
+font-family: Tahoma, Geneva, sans-serif;
+color: #C71585;
+
+padding: 1px;
+
+margin: 1px;
+
+font-size: 20px;
+
+}
+
+/*Responsive Framework*/
+
+.row {
+
+width: 100%;
+
+}
+
+/*********Desktop***********/
+
+@media (min-width: 992px) {
+
+.col-lg-1, .col-lg-2, .col-lg-3,
+
+{
+
+float: center;
+
+border: 1px solid black;
+
+}
+
+.col-lg-1{
+
+width: 8.33%
+
+}
+
+.col-lg-2{
+
+width: 16.66%
+
+}
+
+.col-lg-3{
+
+width: 25%;
+
+}
+
+}
+
+/*************Tablets***************/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+.col-md-1, .col-md-2, .col-md-3,
+
+{ float: center;
+
+border: 1px solid black;
+
+}
+
+.col-md-1{
+
+width: 50%
+
+}
+
+.col-md-2{
+
+width: 50%
+
+}
+
+.col-md-3{
+
+width: 100%;
+
+}
+
+}
+
+/***************Mobiles*****************/
+
+@media (min-width: 767px) {
+
+.col-sd-1, .col-sd-2, .col-sd-3,
+
+{ float: center;
+
+border: 1px solid black;
+
+}
+
+.col-sd-1{
+
+width: 8.33%
+
+}
+
+.col-sd-2{
+
+width: 16.66%
+
+}
+
+.col-sd-3{
+
+width: 25%;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Menu</h1>
+
+<div class="row">
+
+<div class="col-lg-3 col-md-3"><section>CHICKEN</section>
+
+<p> * BUTTERMILK FRIED CHICKEN WITH SLAW R60 
+* CHAR-GRILLED CHICKEN WITH GREEN CHILLI AND CORN SALSA R75
+
+
+
+</p>
+
+</div>
+
+<div class="col-lg-3 col-md-3"><section>BEEF</section>
+
+<p>* ASIAN BEEF AND GREEN TEA NOODLE SALAD WITH CHARRED EGGPLANT R125
+* BEEF AND BEETROOT CURRY R105</p>
+
+</div>
+
+<div class="col-lg-3 col-md-3"><section>SUSHI</section>
+
+<p>* QUINOA SUSHI WITH CHILLI TOFU AND AVOCADO R85
+* SUSHI CONES WITH CUCUMBER AND MARINATED SALMON R90
+
+
+
+
+</p>
+
+</div>
+
+</body>
+
+</html>
